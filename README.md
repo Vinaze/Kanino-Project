@@ -21,7 +21,7 @@ cd Kanino-Project
 
 ## Observações
 
-Toda funcionalidade que vier a ser desenvolvida deverá criar um novo branch com o nome da funcionalidade(não pode conter caracteres especiais), exemplo:
+Toda funcionalidade que vier a ser desenvolvida deverá criar um novo branch com o nome da funcionalidade(não pode conter caracteres especiais e espaços), exemplo:
 
 Funcionalidade: CRUD Categoria
 
