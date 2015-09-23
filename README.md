@@ -21,7 +21,7 @@ cd Kanino-Project
 
 ## Observações
 
-Toda funcionalidade que vier a ser desenvolvida deverá criar um novo branch(não pode conter caracteres especiais) com o nome da funcionalidade, exemplo:
+Toda funcionalidade que vier a ser desenvolvida deverá criar um novo branch com o nome da funcionalidade(não pode conter caracteres especiais), exemplo:
 
 Funcionalidade: CRUD Categoria
 
@@ -41,7 +41,6 @@ Funcionalidade: CRUD Categoria
 ```
 git checkout develop
 git merge CRUD-Categoria
-
 ```
 
 Agora que as mudanças foram preparadas poderá realizar o ``git push`` para o repositório.
