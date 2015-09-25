@@ -1,0 +1,17 @@
+/**
+* Aviso:
+*	Aqui irá todos os estilos dos elementos do site evite adicionar 
+*	códigos de estilos dentro de elementos ou no próprio corpo do HTML, 
+*	exemplo no dentro do body ou head, isso dificulta o trabalho da sua equipe. 
+*/
+
+/* Inicializando as fontes padrão do site */
+html {
+	/*font-family: GillSans, Calibri, Trebuchet, sans-serif;*/
+}
+
+/* Estilos dos textos */
+.text-blank,
+.text-blank p {
+	color: rgb(255, 255, 255);
+}
