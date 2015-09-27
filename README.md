@@ -4,6 +4,8 @@ Projeto do Grupo Rok do Centro Universitário Senac, esse sistema ser tratar de 
 
 Página do projeto: http://sistemasparainter.net/kanino/
 
+Mockups do projeto: [clique aqui](https://www.dropbox.com/s/jdrraiwexglo6ou/Mockups%20do%20Projeto%20Kanino%20-%20Senac.pdf?dl=0)
+
 
 ## Dependências
 
