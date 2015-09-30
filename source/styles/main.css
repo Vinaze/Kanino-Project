@@ -6,7 +6,41 @@
 */
 
 /* Estilos dos textos */
-.row > div {
-    background: #ccc;
-    border: 1px solid #fff;
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+body {
+	background: #bdc3c7;
+	color: #000;
+	font: 16px/1.5em "Varela Round", sans-serif;
+  	margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.btn {
+	width:256px;
+	height: 256px;
+	padding-top: 80px;	
+}
+
+.glyphicon {
+	font-size: 80px;
+	margin-bottom: 16px;
+}
+
+.footer {
+  position: absolute;
+  min-height: 50px;
+  bottom: 0;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.footer p {
+	margin-top: 15px;
+	
 }
