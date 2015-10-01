@@ -6,8 +6,6 @@
 */
 
 /* Estilos dos textos */
-.row > div {
-    padding: 5px;
 
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
@@ -44,6 +42,8 @@ html {
 
 .footer p {
 	margin-top: 15px;
-	
->>>>>>> 864e43825d072a8d7b479591d58e1c7400e9357c
+}
+
+.row > div {
+    padding: 5px;
 }
