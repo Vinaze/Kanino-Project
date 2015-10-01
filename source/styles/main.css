@@ -7,6 +7,5 @@
 
 /* Estilos dos textos */
 .row > div {
-    background: #ccc;
-    border: 1px solid #fff;
+    padding: 5px;
 }
