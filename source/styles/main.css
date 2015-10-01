@@ -42,5 +42,8 @@ html {
 
 .footer p {
 	margin-top: 15px;
-	
+}
+
+.row > div {
+    padding: 5px;
 }
