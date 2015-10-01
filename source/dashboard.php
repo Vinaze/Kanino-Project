@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	  <title>Administração - Kanino Store</title>
 	  <meta charset="utf-8">
 	  
@@ -13,27 +12,7 @@
 	  
 </head>
 <body>
-	
-	<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		  	
-		    	<div class="navbar-header">
-		      		<a class="navbar-brand" href="index.php">Kanino Store</a>
-		   		</div>
-		   		
-		      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Dashboard</a></li>
-			        <li><a href="#">Departamentos</a></li>
-			        <li><a href="#">Produtos</a></li>
-			        <li><a href="#">Usuários</a></li>
-		      </ul>
-		      
-		       <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">{Bem-vindo Usuário}</a></li>
-			        <li><a href="index.php">Sair</a></li>
-		    	</ul>
-		 </div>
-	</nav>
+<?php require('templates/header.php'); ?>
 
 	<div class="container">
 		<div class="page-header">
@@ -47,12 +26,7 @@
 			</div>   
 	  	</div>
 	 </div>
-
-   <footer class="footer">
-      <div class="container-fluid">
-        	<p class="text-center">Todos os diretos reservados.</p>
-      </div>
-  </footer>
-  
+	 
+  <?php require('templates/footer.php'); ?>
 </body>
 </html>
