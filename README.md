@@ -92,11 +92,11 @@ Para fazer o `git merge CRUD-Categoria` certifique-se que esteja no "branch deve
 
 Agora que as mudanças já foram preparadas e a sua funcionalidade já está ok, você terá que executar o seguinte comando:
 ```
-git push
+git push origin develop
 ```
 
 ---
 ## Observações no Github
-Quando o comando `git push` terminar de subir toda as mudanças para o branch "develop" que está no Github, caso queira validar a atividade com PO ou Scrum Master, no seu painel do Github terá um botão "pull request" clique nele, adicione um titulo que descreve as novas implementações e certifique-se que está enviando pelo "branch develop" depois é só enviar, Pronto!
+Quando o comando `git push origin develop` terminar de subir toda as mudanças para o branch "develop" que está no Github, caso queira validar a atividade com PO ou Scrum Master, no seu painel do Github terá um botão "pull request" clique nele, adicione um titulo que descreve as novas implementações e certifique-se que está enviando pelo "branch develop" depois é só enviar, Pronto!
 
 Após isso será validado pelo PO ou Scrum Master.
