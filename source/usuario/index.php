@@ -14,45 +14,7 @@
 </head>
 <body> 
 
- <!-- Modal -->
-<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modalLabel">Excluir Item</h4>
-      </div>
-      <div class="modal-body">
-        Deseja realmente excluir este item?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Sim</button>
-  <button type="button" class="btn btn-default" data-dismiss="modal">N&atilde;o</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        
-          <div class="navbar-header">
-              <a class="navbar-brand" href="index.php">Kanino Store</a>
-          </div>
-          
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Dashboard</a></li>
-              <li><a href="#">Departamentos</a></li>
-              <li><a href="#">Produtos</a></li>
-              <li><a href="#">Usuários</a></li>
-          </ul>
-          
-           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">{Bem-vindo Usuário}</a></li>
-              <li><a href="index.php">Sair</a></li>
-          </ul>
-     </div>
-  </nav>
+<?php require('../templates/header.php'); ?>
   
  <div id="main" class="container-fluid" style="margin-top: 50px">
  
@@ -193,30 +155,10 @@
     </table>
   </div>
   
-</div> <!-- /#list -->
+</div>
   
  
-
-<!-- Modal -->
-<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modalLabel">Excluir Item</h4>
-      </div>
-      <div class="modal-body">
-        Deseja realmente excluir este item?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Sim</button>
-  <button type="button" class="btn btn-default" data-dismiss="modal">N&atilde;o</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<?php require('templates/footer.php'); ?>
+<?php require('../templates/footer.php'); ?>
   
   <script src="scripts/libs/jquery-1.11.3.min.js"></script>
   <script src="scripts/libs/bootstrap.min.js"></script>

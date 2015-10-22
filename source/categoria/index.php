@@ -14,7 +14,7 @@
 </head>
 <body> 
 
-<?php require('templates/header.php'); ?>
+<?php require('../templates/header.php'); ?>
 
  <div id="main" class="container-fluid" style="margin-top: 50px">
  
@@ -147,7 +147,7 @@
 </div>
   
  
-<?php require('templates/footer.php'); ?>
+<?php require('../templates/footer.php'); ?>
   
   <script src="scripts/libs/jquery-1.11.3.min.js"></script>
   <script src="scripts/libs/bootstrap.min.js"></script>
